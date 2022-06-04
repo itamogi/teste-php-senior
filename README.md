@@ -1,60 +1,36 @@
 
-Teste Vaga PHP
+# Teste Vaga PHP Sênior
+
+Com este teste esperamos conhecer melhor como você desenvolve e como você se organiza para montar um sistema
 
 
-#       Desenvolver       #
+# O que é o Teste ?
 
--> Crie uma interface(página na web) onde você consiga, CADASTRAR, ALTERAR e EXCLUIR um produto com variação, você tem que salvar esses
-dados no banco de dados.
+Você precisa criar um sistema em que seja sincronizado uma conta do mercado livre e baixado de 6 em 6 horas todos os produtos da conta do cliente para um banco de dados do sistema. 
 
--> O cadastro deve conter no minimo as seguintes informações abaixo:
+Documentação: https://developers.mercadolivre.com.br/pt_br
 
-    * Nome do produto
-    
-    * SKU
-    
-    * Fotos
-    
-    * Decrição
-    
- -> Na variação o produto pode variar por até dois níveis ( exemplo: Cor (1 nível), Tamanho (1 nível) ou Cor e Tamanho (2 níveis ) ):
-    
-    * Estoque
-    
-    * Preço
-    
-    * Tipo de variação
-    
-    * Descrição da Variação
+Para isso você precisa criar um app no Meli e criar um usuário de teste no próprio Meli para sincronizar em seu app
+
+Também precisa criar um front desacoplado do backend para a criação de um produtos simples na conta do usuário teste
 
 
+# Informações adicionais:
 
-#     Banco de dados      #
+1) Faça da forma em que se sentir melhor, deixe sua imaginação fluir e não se preocupe tanto com o layout do sistema e sim com as funcionalidades
 
-user:           root
+2) Você pode usar o phpMyAdmin, HeideSQL, MySQL Front e MySQL Administrator
 
-pass:           tt333
+# Seria lega se tivesse
 
-server:         localhost
-
-bancodedados:   produtos
-
-
-
-
-# Informações adicionais: #
-
-1) Faça da forma em que se sentir melhor, deixe sua imaginação fluir...
-
-2) Norlmamente o produto é gravado em uma tabela e a variação em outra ( relacionamento ? )
-
-2) A foto do produto deverá sere salva dentro de uma pasta com o código do produto ( Exemplo: E:\www\produto\333\ )
-
-3) Você pode usar o phpMyAdmin, HeideSQL, MySQL Front e MySQL Administrator
+- Docker
+- Testes unitários
+- Usar laravel ou algum outro framework em php que você tenha familiaridade
 
 
 ---- 
 
 Após finalizar o teste publique ele em seu Github e encaminhe o link do repositório para o e-mail psymics@gmail.com
 
-Um bom teste =)
+Um bom teste =) 
+Esperamos ter você aqui com a gente
